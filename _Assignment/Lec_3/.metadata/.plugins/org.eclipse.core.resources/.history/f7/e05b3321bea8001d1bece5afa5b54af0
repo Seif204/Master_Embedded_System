@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : 1__EX7.c
+ Author      : Seif
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+	float a,b;
+	fflush(stdin); fflush(stdout);
+	printf ("Enter Value of a :");
+	scanf ("%f",&a);
+	printf ("Enter Value of b :");
+	scanf ("%f",&b);
+
+	a=a-b ;
+	b=a+b ;
+	a=b-a ;
+
+	printf( "After Swapping, Value of a= %f " ,a);
+	printf( "After Swapping, Value of b= %f " ,b);
+
+
+	return 0;
+}

@@ -1,0 +1,8 @@
+22:17:24 **** Incremental Build of configuration Debug for project 1 ****
+Info: Internal Builder is used for build
+gcc -o 1.exe "src\\1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+22:17:25 Build Finished (took 210ms)
+

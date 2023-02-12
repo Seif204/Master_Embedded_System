@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : 2.c
+ Author      : Seif
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdio.h>
+
+
+int main() {
+	int a-0 , b-0;
+	printf ("Enter Your 2 Num :") ;
+	fflush(stdin); fflush(stdout);
+	scanf ( " %d %d " , &a , &b);
+	printf (" You Entered %d\r\n " , a+b );
+
+	return 0 ;
+
+}

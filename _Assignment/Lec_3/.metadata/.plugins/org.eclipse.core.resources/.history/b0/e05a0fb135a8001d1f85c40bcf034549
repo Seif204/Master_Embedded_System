@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : 1.c
+ Author      : Seif
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+void main() {
+	printf ("C Programming ");
+
+
+
+	return ;
+}

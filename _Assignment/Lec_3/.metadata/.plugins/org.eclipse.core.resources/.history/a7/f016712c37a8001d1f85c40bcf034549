@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : 1.c
+ Author      : Seif
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+int main() {
+	int a;
+	printf ("Enter Your Num : ") ;
+	fflash(stdin); fflash(stdout);
+	scanf ("%d " , &a);
+//	printf (" \n You Entered (%d) " , a ) ;
+
+
+	return 0 ;
+}

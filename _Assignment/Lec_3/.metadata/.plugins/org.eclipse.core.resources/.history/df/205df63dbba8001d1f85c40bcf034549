@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : 2.c
+ Author      : Seif
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdio.h>
+
+
+int main() {
+	char a ;
+	printf ("Enter Your char :") ;
+	fflush(stdin); fflush(stdout);
+	scanf ( "%c",&a);
+	printf (" %d " , 'a' );
+
+	return 0 ;
+
+}

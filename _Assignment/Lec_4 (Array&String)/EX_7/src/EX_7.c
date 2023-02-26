@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	 char c[100];
+	 int cunt=0;
+	 printf("Enter String :");
+	 fflush(stdin); fflush(stdout);
+	 gets(c);
+	 for(int i=0 ; c[i] != '\0' ; i++ ){
+		  cunt++;
+	 }
+	 printf(" Lenght of String = %d",cunt);
+	return 0;
+}

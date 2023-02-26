@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : EX_4.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int a ,b,c;
+	printf("Enter Num of Element : ");
+	fflush(stdin); fflush(stdout);
+	scanf ("%d", &a);
+	int X[a];
+	for(int i=0 ;i<a;i++) scanf("%d", &X[i]);
+	printf("Enter The Element to be inserted : ");
+	fflush(stdin); fflush(stdout);
+	scanf ("%d", &b);
+	printf("Enter the location : ");
+	fflush(stdin); fflush(stdout);
+	scanf ("%d", &c);
+
+	for(int i=0;i<a;i++){
+		if ( i == c-1){
+			printf("%d ",b);
+		}
+		printf("%d ",X[i]);
+
+	}
+	return- 0;
+}
